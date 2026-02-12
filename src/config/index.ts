@@ -1,10 +1,9 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Lenny Zachelin — Développeur Backend",
+  title: "Lenny Zachelin — Étudiant Développeur Backend C#",
   author: "Lenny Zachelin",
-  description:
-    "Développeur C# Backend, étudiant en BTS SIO (SLAM) après un BAC Pro Systèmes Numériques.",
+  description: "Développeur en formation BTS SIO (SLAM). Expertise académique en PHP, SQL et Kotlin, et passionné par l'écosystème C# pour le développement backend.",
   lang: "fr",
   siteLogo: "/logo.png",
   navLinks: [
@@ -77,7 +76,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "Autoit Automation",
-      summary: "Scripts d'automatisation système développés en autonomie entre 2020 et 2023.",
+      summary: "Scripts d'automatisation système développés entre 2020 et 2023.",
       linkPreview: "/",
       linkSource: "https://github.com/promacklol",
       image: "/project-autoit.png",
