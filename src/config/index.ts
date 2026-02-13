@@ -23,7 +23,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Lenny Zachelin",
     specialty: "Développeur C# Backend",
     summary:
-      "Étudiant en BTS SIO (SLAM) issu d'un BAC Pro SN. En parallèle de mon cursus, je me spécialise en autodidacte sur C#, Rust et C++ tout en maîtrisant PHP/SQL en classe.",
+      "Développeur en formation BTS SIO (SLAM). Expertise académique en PHP, SQL et Kotlin, et passionné par l'écosystème C# pour le développement backend.",
     email: "lenny.zachelin@exemple.com",
   },
   experience: [
