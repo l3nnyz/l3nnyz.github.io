@@ -52,11 +52,11 @@ export const SITE_CONTENT: SiteContent = {
   ],
   projects: [
     {
-      name: "LennyClient (Config Manager)",
-      summary: "Application console C# intégrant un système de persistance de données via le Registre Windows et une interface utilisateur CLI interactive.",
+      name: "AutoRestoreSystem (.NET 9)",
+      summary: "Utilitaire de sécurité automatisant la création et la rotation des points de restauration Windows via une interface C# pilotant PowerShell.",
       linkPreview: "/",
-      linkSource: "https://github.com/l3nnyz/LennyClient",
-      image: "/project-client.png",
+      linkSource: "https://github.com/l3nnyz/AutoRestoreSystem",
+      image: "/project-restore.png",
     },
   ],
   about: {
