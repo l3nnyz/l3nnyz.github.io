@@ -1,9 +1,9 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Lenny Zachelin — Étudiant Développeur Backend C#",
+  title: "Lenny Zachelin — Étudiant Développeur Logiciel C#",
   author: "Lenny Zachelin",
-  description: "Étudiant en BTS SIO (SLAM) et développeur passionné par l'architecture logicielle. Expertise académique en PHP/Kotlin et spécialisation autodidacte en écosystème C# .NET.",
+  description: "Étudiant en BTS SIO (SLAM) et développeur passionné par l'architecture logicielle. Expertise académique en PHP/Kotlin et spécialisation autodidacte en développement logiciel C# .NET.",
   lang: "fr",
   siteLogo: "/logo.png",
   navLinks: [
@@ -21,9 +21,9 @@ export const SITE_CONFIG: SiteConfig = {
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Lenny Zachelin",
-    specialty: "Développeur C# Backend",
+    specialty: "Développeur Logiciel C#",
     summary:
-      "Futur diplômé en BTS SIO (SLAM). Je combine un socle académique rigoureux (PHP, SQL, Kotlin) avec une expertise autodidacte en C# pour concevoir des solutions backend performantes et des outils système.",
+      "Futur diplômé en BTS SIO (SLAM). Je combine un socle académique rigoureux (PHP, SQL, Kotlin) avec une expertise autodidacte en C# pour concevoir des applications performantes et des outils système.",
     email: "lenny.zachelin@exemple.com",
   },
   experience: [
@@ -33,8 +33,7 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "2017",
       endDate: "Présent",
       summary: [
-        "2024 - Présent : Spécialisation intensive en C# .NET (Backend, Sockets, Programmation asynchrone).",
-        "2023 : Exploration des langages système et bas niveau avec C++ et Rust.",
+        "2024 - Présent : Spécialisation intensive en développement logiciel C# .NET (Sockets, Programmation asynchrone, Architecture logicielle).",
         "2020 - 2023 : Automatisation et scripting avancé via AutoIt v3.",
         "2017 - 2020 : Initiation au développement d'utilitaires et scripts d'automatisation en Batch.",
       ],
@@ -45,13 +44,20 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "2025",
       endDate: "2027",
       summary: [
-        "Web Backend : Développement de solutions de gestion avec PHP.",
+        "Développement Web : Conception de solutions de gestion avec PHP.",
         "Bases de données : Conception, modélisation et administration via SQL.",
         "Mobile : Introduction au développement d'applications avec Kotlin.",
       ],
     },
   ],
   projects: [
+    {
+      name: "Remote Administration Tool (C#)",
+      summary: "Projet majeur (Été 2026) : Développement d'un outil de contrôle à distance complet en C# focalisé sur la gestion des flux réseaux et les communications Sockets.",
+      linkPreview: "/",
+      linkSource: "https://github.com/promacklol",
+      image: "/project-rat.png",
+    },
     {
       name: "WinForms Desktop Apps",
       summary: "Conception d'outils d'administration et d'interfaces de gestion de données utilisant le framework .NET et WinForms.",
@@ -70,8 +76,8 @@ export const SITE_CONTENT: SiteContent = {
   about: {
     description: `
       Ancien élève de Bac Pro Systèmes Numériques, je prépare actuellement mon BTS SIO option SLAM. 
-      Ma force réside dans ma capacité à mener deux apprentissages de front : un cursus académique structuré (PHP, SQL, Kotlin) et une spécialisation personnelle poussée sur les technologies backend et système via l'écosystème C#. 
-      Passionné par la logique pure et les interactions de bas niveau, je cherche constamment à approfondir mes connaissances techniques et l'architecture logicielle au-delà du cadre scolaire.
+      Ma force réside dans ma capacité à mener deux apprentissages de front : un cursus académique structuré et une spécialisation personnelle poussée sur le développement logiciel avec l'écosystème C#. 
+      Passionné par la logique pure et les interactions de bas niveau, je cherche constamment à approfondir mes connaissances techniques et la conception applicative au-delà du cadre scolaire.
     `,
     image: "/profile.jpg",
   },
