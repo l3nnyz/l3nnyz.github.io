@@ -12,10 +12,10 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Profil", href: "#about" },
   ],
   socialLinks: [
-    { text: "Github", href: "https://github.com/lennyz" },
+    { text: "Github", href: "https://github.com/l3nnyz" },
   ],
   socialImage: "/og-image.png",
-  canonicalURL: "https://lennyz.github.io",
+  canonicalURL: "https://l3nnyz.github.io",
 };
 
 export const SITE_CONTENT: SiteContent = {
@@ -55,7 +55,7 @@ export const SITE_CONTENT: SiteContent = {
       name: "LennyClient (Config Manager)",
       summary: "Application console C# intégrant un système de persistance de données via le Registre Windows et une interface utilisateur CLI interactive.",
       linkPreview: "/",
-      linkSource: "https://github.com/lennyz/LennyClient",
+      linkSource: "https://github.com/l3nnyz/LennyClient",
       image: "/project-client.png",
     },
   ],
