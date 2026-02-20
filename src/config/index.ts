@@ -53,13 +53,6 @@ export const SITE_CONTENT: SiteContent = {
   ],
   projects: [
     {
-      name: "Remote Administration Tool (C#)",
-      summary: "Projet majeur (Été 2026) : Développement d'un outil de contrôle à distance complet en C# focalisé sur la gestion des flux réseaux (Sockets).",
-      linkPreview: "/",
-      linkSource: "https://github.com/promacklol",
-      image: "/project-rat.png",
-    },
-    {
       name: "WinForms Desktop Apps",
       summary: "Conception d'outils d'administration et d'interfaces de gestion de données utilisant le framework .NET et WinForms.",
       linkPreview: "/",
@@ -77,8 +70,8 @@ export const SITE_CONTENT: SiteContent = {
   about: {
     description: `
       Ancien élève de Bac Pro Systèmes Numériques, je prépare actuellement mon BTS SIO option SLAM. 
-      Ma force réside dans ma capacité à mener deux apprentissages de front : un cursus académique structuré et une spécialisation personnelle poussée sur les technologies backend et système (C#, Rust, C++). 
-      Passionné par la logique pure et les interactions de bas niveau, je cherche constamment à approfondir mes connaissances techniques au-delà du cadre scolaire.
+      Ma force réside dans ma capacité à mener deux apprentissages de front : un cursus académique structuré (PHP, SQL, Kotlin) et une spécialisation personnelle poussée sur les technologies backend et système via l'écosystème C#. 
+      Passionné par la logique pure et les interactions de bas niveau, je cherche constamment à approfondir mes connaissances techniques et l'architecture logicielle au-delà du cadre scolaire.
     `,
     image: "/profile.jpg",
   },
