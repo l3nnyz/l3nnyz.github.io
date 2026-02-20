@@ -21,7 +21,7 @@ export const SITE_CONFIG: SiteConfig = {
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Lenny Zachelin",
-    specialty: "Développeur Logiciel C#",
+    specialty: "Développeur Logiciel C# ",
     summary:
       "Futur diplômé en BTS SIO (SLAM). Je combine un socle académique rigoureux (PHP, SQL, Kotlin) avec une expertise autodidacte en C# pour concevoir des applications performantes et des outils système.",
     email: "lenny.zachelin@exemple.com",
