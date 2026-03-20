@@ -53,13 +53,20 @@ export const SITE_CONTENT: SiteContent = {
   ],
   projects: [
     {
+      name: "lennytask (ProcessKiller) (.NET 9)",
+      summary: "Alternative performante à taskkill développée en .NET 9. Utilise l'API Win32 (P/Invoke) pour la gestion avancée des arbres de processus et la compilation Native AOT pour une exécution instantanée.",
+      linkPreview: "/",
+      linkSource: "https://github.com/l3nnyz/lennytask",
+      image: "/project-lennytask.png",
+    },
+    {
       name: "AutoRestoreSystem (.NET 9)",
       summary: "Utilitaire de sécurité automatisant la création et la rotation des points de restauration Windows via une interface C# pilotant PowerShell.",
       linkPreview: "/",
       linkSource: "https://github.com/l3nnyz/AutoRestoreSystem",
       image: "/project-restore.png",
     },
-  ],
+  ]
   about: {
     description: `
       Ancien élève de Bac Pro Systèmes Numériques, je prépare actuellement mon BTS SIO option SLAM. 
