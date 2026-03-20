@@ -33,9 +33,10 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "2017",
       endDate: "Présent",
       summary: [
-        "2024 - Présent : Spécialisation intensive en développement logiciel C# .NET (Sockets, Programmation asynchrone, Architecture logicielle).",
+        "2024 - Présent : Spécialisation intensive C# .NET (Sockets, Programmation asynchrone, Architecture logicielle).",
+        "2022 - 2024 : Développement système et algorithmie en C++ (Gestion mémoire, POO, Optimisation).",
         "2020 - 2023 : Automatisation et scripting avancé via AutoIt v3.",
-        "2017 - 2020 : Initiation au développement d'utilitaires et scripts d'automatisation en Batch.",
+        "2017 - 2020 : Initiation au développement d'utilitaires et scripts d'automatisation en Batch."
       ],
     },
     {
