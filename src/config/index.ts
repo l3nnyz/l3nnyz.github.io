@@ -3,7 +3,7 @@ import type { SiteConfig, SiteContent } from "../types";
 export const SITE_CONFIG: SiteConfig = {
   title: "Lenny Zachelin — Étudiant Développeur Logiciel C#",
   author: "Lenny Zachelin",
-  description: "Étudiant en BTS SIO (SLAM) et développeur passionné par l'architecture logicielle. Expertise académique en PHP/Kotlin et spécialisation autodidacte en développement logiciel C# .NET.",
+  description: "Étudiant en BTS SIO (SLAM) et développeur passionné par l'architecture logicielle. Expertise académique en Kotlin et spécialisation autodidacte en développement logiciel C# .NET.",
   lang: "fr",
   siteLogo: "/logo.png",
   navLinks: [
@@ -33,10 +33,10 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "2017",
       endDate: "Présent",
       summary: [
-        "2024 - Présent : Spécialisation C# .NET (Sockets, Programmation asynchrone) et Exploration Rust (Gestion mémoire sécurisée, Performance).",
-        "2022 - 2025 : Développement système en C++ (POO, Algorithmie) et Initiation PureBasic (Optimisation de binaires légers).",
-        "2020 - 2023 : Automatisation et scripting avancé via AutoIt v3.",
-        "2017 - 2020 : Initiation au développement d'utilitaires et scripts d'automatisation en Batch."
+        "2024 - Présent : Spécialisation C# .NET (Sockets, Async, Architecture) et approfondissement Rust.",
+        "2023 - 2024 : Développement système (C++, Rust) et optimisation de binaires (PureBasic).",
+        "2020 - 2023 : Automatisation avancée via AutoIt v3 et scripts d'administration VBScript.",
+        "2017 - 2020 : Initiation au scripting d'automatisation et utilitaires système en Batch."
       ],
     },
     {
